@@ -1,0 +1,1237 @@
+rails aborted!
+ActiveRecord::NoEnvironmentInSchemaError: 
+
+Environment data not found in the schema. To resolve this issue, run: 
+
+        rails db:environment:set RAILS_ENV=test
+
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.0/lib/active_record/migration.rb:1151:in `last_stored_environment'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.0/lib/active_record/tasks/database_tasks.rb:60:in `check_protected_environments!'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.0/lib/active_record/railties/databases.rake:15:in `block (2 levels) in <main>'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activerecord-6.0.0/lib/active_record/railties/databases.rake:491:in `block (3 levels) in <main>'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/commands/rake/rake_command.rb:23:in `block in perform'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/commands/rake/rake_command.rb:20:in `perform'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/command.rb:48:in `invoke'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/commands.rb:18:in `<main>'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.0/lib/active_support/dependencies.rb:325:in `block in require'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.0/lib/active_support/dependencies.rb:291:in `load_dependency'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/activesupport-6.0.0/lib/active_support/dependencies.rb:325:in `require'
+/home/dan/laburos/scv/recetario-api/bin/rails:9:in `<top (required)>'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/client/rails.rb:28:in `load'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/client/rails.rb:28:in `call'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/client/command.rb:7:in `call'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/client.rb:30:in `run'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/bin/spring:49:in `<top (required)>'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/binstub.rb:11:in `load'
+/home/dan/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/binstub.rb:11:in `<top (required)>'
+/home/dan/laburos/scv/recetario-api/bin/spring:15:in `require'
+/home/dan/laburos/scv/recetario-api/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:test:load => db:test:purge => db:check_protected_environments
+(See full trace by running task with --trace)
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
+/home/dan/laburos/scv/recetario-api/spec/factories/recipes.rb:4: Passing `digits` with the 1st argument of `number` is deprecated. Use keyword argument like `number(digits: ...)` instead.
+
+To automatically update from positional arguments to keyword arguments,
+install rubocop-faker and run:
+
+rubocop \
+  --require rubocop-faker \
+  --only Faker/DeprecatedArguments \
+  --auto-correct
+
